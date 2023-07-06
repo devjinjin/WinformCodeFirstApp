@@ -1,7 +1,26 @@
 ﻿코드 작성 위주(CodeFirst)의 Winform 작성 (.Net 6.x 기준)
 
-1. Nuget 다운로드
+1. NuGet 다운로드
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
+
+//https://www.youtube.com/watch?v=Q2iptgCw5sg
+
+2. DBContext Class 생성
+//로컬 DB 연결 문자열 포함
+
+3. 테이블이 될 Model class 생성
+
+4. 패키지 관리자 콘솔에서 
+=> Add-Migration Initial
+=> 결과 : Migrations 폴더 생성되고 내부에 DataBaseContextModelSnapshot.cs 와 신규 데이터 베이스 생성에 대한 코드 Class 파일 생성됨
+
+
+5. 패키지 관리자 콘솔에서
+Update-Database 입력
+=> 결과 : 로컬 데이터 베이스에 테이블 생성 확인
+
+
+
 
 
