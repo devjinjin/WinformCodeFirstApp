@@ -1,0 +1,7 @@
+﻿코드 작성 위주(CodeFirst)의 Winform 작성 (.Net 6.x 기준)
+
+1. Nuget 다운로드
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkCore.Tools
+
+
